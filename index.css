@@ -1,0 +1,56 @@
+body {
+    background: cadetblue;
+    color: rgb(219, 219, 240);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.kaell {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    background-color: white;
+    padding: 10px;
+    background-repeat: repeat;
+}
+
+.top {
+    font-size: clamp(5rem, 3vw, 14rem); 
+    text-align: ce;
+}
+
+.indice {
+    font-size: clamp(1.3rem, 1vw, 5rem);
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    flex-direction: column-reverse;
+    align-content: center;
+    
+ 
+}
+ .top {
+    background-color: rgb(17, 17, 26);
+    background-size: 50px;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 60px;
+ }
+
+ .container {
+    background-color: rgb(31, 25, 56);
+    
+ }
+.indice {
+    background-color: rgb(17, 17, 26);
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;    
+}
+#intro {
+    text-align: center;
+}
