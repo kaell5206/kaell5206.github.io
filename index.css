@@ -1,77 +1,91 @@
 body {
-    color: #0D0C1D;
     margin: 0;
+    font-size: 16px;
+    background-color: #DCE0D9;
+    color: #DCE0D9;
     font-family: 'Roboto', sans-serif;
-
 }
-
-.kaell {
+p {
+    font-size: 1.1em;
+    padding: 1rem;
+}
+.menu{
+    background-color: #31081F;
+    position: fixed;
     width: 100%;
-    height: auto;
-    max-width: 400px;
-    background-color: white;
-    padding: 10px;
-    background-repeat: repeat;
+    align-items: center;
+    top: 0px;
+    font-size: clamp(0.8rem, 1.1vw, 3.3rem);
+    line-height: 3rem;
+    list-style-type: none;
+    font-weight: 600;
+    z-index: 1;
+}
+#itensMenu {
+    left: 100rem;
     text-align: center;
-}
-
-.top {
-    font-size: clamp(5rem, 3vw, 14rem); 
-    text-align: center;
-}
-#inde {
-    background-color: #161B33;
-    line-height: 50px;
-    color: #F1DAC4;
-    margin: 0;
-    text-align: center;
-}
-#headerText {
-    text-align: center;
-    font-size: 1.3rem;
-    background-color: #A69CAC;
-    padding: 20px;
-}
-
-.indice {
-    font-size: clamp(1.3rem, 1vw, 5rem);
-    justify-content: center;
-    display: flex;
-    color: #F1DAC4;
-}
-
-.container {
-    flex-direction: column-reverse;
-    align-content: center;
     
- 
 }
- .top {
-    background-color: #A69CAC;
-    background-size: 50px;
-    margin: 0px;
-    margin-top: 0px;
-    padding: 60px;
- }
 
- .container {
-    background-color:#F1DAC4;
-    margin: 0px;
-    
- }
-.indice {
-    background-color:#474973;
-    justify-content: center;
-    margin-top: 1px;
-    margin-bottom: 20px;    
+span {
+    padding: 0px 40px 0px 0px;
 }
-.lista {
-    margin: 0px 50px;
+
+.conteudo {
+    top: 20%;
+    position: absolute;
+    margin-left: 34%;
+    margin-right: 34%;
+    width: 30%;
+    color: #6B0F1A;
 }
-#intro {
-    text-align: center;
+hr {
+    border: solid 1px;
 }
-a, a:visited {
-   color: #ee4040; 
-   text-decoration: none;
+
+#foto {
+    width: clamp(250px, 100%, 500px);
+    border-radius: 100%;
+}
+h2 {
+    font-size: 2em;
+}
+h1 {
+    font-size: 2.5em;
+}
+li {
+    font-size: 1.2em;
+}
+.redeslink, a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #6B0F1A ;
+}
+.redeslink, a:visited {
+    color: #6B0F1A;
+}
+.redeslink, a:hover {
+    color: #cc4192;
+}
+.menu a:visited {
+    color: #DCE0D9;
+}
+.redeslink {
+    background-color: #59595934 ;
+    border-radius: 2%;
+    padding: 1rem;
+}
+#skills, #redes, #recomend, #sobre {
+    background-color: #808f8586;
+    border-radius: 3%;
+    margin: 0rem -4rem;
+    padding: 0.5rem;
+}
+.pattern {
+    background-color: #59595934 ;
+    border-radius: 2%;
+    padding: 2.5rem;
+}
+#recomend {
+    margin-top: 3%;
 }
