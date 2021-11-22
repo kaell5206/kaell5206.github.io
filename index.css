@@ -6,8 +6,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 p {
-    font-size: 1.1em;
-    padding: 1rem;
+    font-size: clamp(1rem, 1vw, 3rem);
+    padding: 0.2rem;
+    
 }
 .menu{
     background-color: #31081F;
@@ -32,12 +33,12 @@ span {
 }
 
 .conteudo {
-    top: 20%;
-    position: absolute;
-    margin-left: 34%;
-    margin-right: 34%;
-    width: 30%;
+    margin: auto;
+    width: 60%;
+    border: 5px solid rgb(255, 247, 219);
     color: #6B0F1A;
+    padding: 2rem;
+    margin-top: 10%;
 }
 hr {
     border: solid 1px;
@@ -48,13 +49,13 @@ hr {
     border-radius: 100%;
 }
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 li {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 .redeslink, a {
     text-decoration: none;
@@ -78,13 +79,14 @@ li {
 #skills, #redes, #recomend, #sobre {
     background-color: #808f8586;
     border-radius: 3%;
-    margin: 0rem -4rem;
+    margin: 0rem -2rem;
     padding: 0.5rem;
 }
 .pattern {
     background-color: #59595934 ;
     border-radius: 2%;
-    padding: 2.5rem;
+    padding: 2rem;
+    line-height: -2rem;
 }
 #recomend {
     margin-top: 3%;
