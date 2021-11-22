@@ -4,57 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Portfolio de exercicios</title>
+
+    <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
-    <h1 class="top">Portfolio Web</h1>
-    <h4 id="headerText">Portfolio de demostração dos exercicios do aluno de trybe Kaell Caldeira.</h4>
-    <h2 id="inde">Indice:</h2>
-   <div class="indice">
-    <ul class="lista">    
-        <li><a href="#intro">Introdução</a></li><br>
-        <li><a href="#skills">Skills</a></li><br>
-        <li><a href="#sobre">Sobre mim</a></li><br>
-        <li><a href="#redes">Redes Sociais</a></li><br>
-        <li><a href="#recomend">Recomendação</a></li><br>
-     </ul>
-   </div>
-    
-    <img src="./images/232118939_251540196812035_6918737781753575107_n.jpg" alt="Foto de kaell, homem pardo de cabelos escuros barba e bigode." class="kaell"><br>
-    <h2 id="intro"><strong>Kaell Alecsander Silva Caldeira</strong></h2><br>
-    <p>Olá eu sou Kaell Caldeira, tenho 25 anos sou <strong>Brasileiro</strong> do estado da <strong>Paraíba</strong> e nasci na cidade de <strong>João pessoa</strong> e é onde moro atualmente.</p><br>
-    <h2 id="skills">Skills:</h2><br>
-    <ul id="skillLista">
-        <li><strong>Photoshop</strong></li>
-        <p>Trabalhei como pintor digital/conecpt artist freelancer por 3 anos.</p><br>
-        <li><strong>Graphic Designer</strong></li>
-        <p>Assim como no photoshop foi usado pra arte e pintura, também usava para criação de identidades visuais.</p><br>
-        <li><strong>Git & Github</strong></li>
+    <div class="menu" id="top">
+        <h3 id="itensMenu"><span><a href="#top">Inicio</a></span><span><a href="#sobre">Sobre</a></span><span><a href="#skills"> Skills</a></span><span><a href="#redes">Redes Sociais</a></span><span><a href="#recomend">Recomendações</a></span></h3>
+    </div>
+    <div class="conteudo">
+    <h1>Kaell Alecsander Silva Caldeira</h1>
+    <h4>Portfolio de desenvolvimento web.</h4>
+    <hr>
+        <img src="./../images/232118939_251540196812035_6918737781753575107_n.jpg" alt="Foto de kaell, homem pardo com barba e bigode cabelos e olhos, castanhos escuro, vestindo uma camisa vermelha. No fundo tem um muro e algumas folhas de uma planta." id="foto">
+    <h2 id="sobre">Sobre mim:</h2>
+    <p class="pattern">Me chamo <strong>Kaell Caldeira e tenho 25 anos!</strong> Sou estudante da <strong>Trybe</strong> de <strong>desenvolvimento web</strong>.
+Sou <strong>Brasileiro</strong>, nasci em <strong>João Pessoa a capital da Paraíba!</strong> Antes de entrar no mundo dos Devs eu trabalhava Freelancer como artista digital, ilustração digital e Designer Gráfico.
+Sou uma pessoa portadora de <strong>ceratocone</strong> que me deixou cego dos 13 aos 21 anos, <strong>porem em 2018 fiz a cirurgia de transplante de córnea!</strong> e voltei a enxergar. Desde então estou tentando-me achar no mundo profissional e a <strong>Trybe é essa nova pagina na minha vida!</strong></p><br>
+
+<h2 id="skills">Skills:</h2><br>
+    <ul class="pattern">
+        <li><strong>Photoshop</strong></li><br>
+        <li>Ilustrator</li><br>
+        <li>Iniciando Git & GitHub</li><br>
+        <li>Iniciando HTML & CSS</li><br>
+        <li>Iniciando JavaScript</li><br>
     </ul>
-    
-    <h2 id="sobre"><a href="#kaell">Sobre mim:</a></h2>
-    <p>Sou um estudante de desenvolvimento web full stack, gosto de jogos onlie, de ler,<br> cozinhar, trocar violão entre outras atividades. Suu <strong>ex-deficiente</strong> visual, voltei a enxergar em 2018 <br> depois de <strong>dois transplantes de cornea</strong>. Estudar na trybe é uma oportunidade incrivel e a melhor<br>forma que achei de dar um passo adiante na vida pessoal e profissional.</p><br>
-<div id="redes">
-    <h2>Redes Sociais:</h2>
-    <h4><a href="https://www.linkedin.com/in/kaell-caldeira-930382225/">LinkedIn</a></h4>
-    <h4><a href="https://github.com/kaell5206">GitHub</a></h4>
-    <h4><a href="https://www.instagram.com/kaellalec/">Instagram</a></h4>
-</div>
-
-    <h2 id="recomend">Site que recomendo:</h2>
-    <ul>
-        <li><a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a></li><br>
+<h2 id="redes">Redes Sociais:</h2><br>
+    <div class="redeslink">
+        <ul>
+        <li><a href="https://www.linkedin.com/in/kaell-caldeira-930382225/" target="_blank">LinkedIn</a></li><br>
+        <li><a href="https://github.com/kaell5206" target="_blank">GitHub</a></li><br>
+        <li><a href="https://www.instagram.com/kaellalec/" target="_blank">Instagram</a></li><br>
     </ul>
+    </div>
+    <h2 id="recomend">Recomendações</h2><br>
+    <ul class="pattern">
+        <li><a href="https://www.betrybe.com/" target="_blank">Trybe!</a></li>
+        <p>Melhor escola de programação!</p>
+        <li><a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a></li>
+        <p>Melhor site de noticias e conteudo de cultura POP!</p>
+        <li><a href="https://9gag.com/" target="_blank">9gag</a></li>
+        <p>Bom site para perder tempo vendo memes!</p>
+        <li><a href="https://pt.duolingo.com/" target="_blank">Duolingo</a></li>
+        <p>Otimo site free para aprender idiomas.</p>
 
-    <h3><a href="#top">Retornar ao topo</a></h3>
-
-
-
+    </ul>
 </div>
 </body>
 </html>
