@@ -39,7 +39,7 @@ span {
     border: 5px solid rgba(255, 247, 219, 0.274);
     color: #403D39;
     padding: 2rem;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 hr {
     border: solid 1px;
@@ -95,4 +95,8 @@ li {
 span:hover {
     background-color: #4d3930;
     border-radius: 4%;
+}
+#jp{ 
+    width: clamp(200px, 100%, 1100px);
+
 }
