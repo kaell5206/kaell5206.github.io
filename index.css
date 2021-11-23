@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-size: 16px;
-    background-color: #DCE0D9;
-    color: #DCE0D9;
+    background-color: #CCC5B9;
+    color: #FFFCF2;
     font-family: 'Roboto', sans-serif;
 }
 p {
@@ -11,7 +11,8 @@ p {
     
 }
 .menu{
-    background-color: #31081F;
+    background-color: #252422;
+    color: #FFFCF2;
     position: fixed;
     width: 100%;
     align-items: center;
@@ -29,16 +30,16 @@ p {
 }
 
 span {
-    padding: 0px 40px 0px 0px;
+    padding: 30px 25px 29px 25px;
 }
 
 .conteudo {
     margin: auto;
     width: 60%;
-    border: 5px solid rgb(255, 247, 219);
-    color: #6B0F1A;
+    border: 5px solid rgba(255, 247, 219, 0.274);
+    color: #403D39;
     padding: 2rem;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 hr {
     border: solid 1px;
@@ -60,34 +61,42 @@ li {
 .redeslink, a {
     text-decoration: none;
     font-weight: 600;
-    color: #6B0F1A ;
+    color: #EB5E28 ;
 }
 .redeslink, a:visited {
-    color: #6B0F1A;
+    color: #3157ff;
 }
 .redeslink, a:hover {
     color: #cc4192;
 }
-.menu a:visited {
-    color: #DCE0D9;
+.menu, a, a:visited {
+    color: #837a65;
 }
 .redeslink {
-    background-color: #59595934 ;
+    background-color: #eb5f2841 ;
     border-radius: 2%;
     padding: 1rem;
 }
 #skills, #redes, #recomend, #sobre {
-    background-color: #808f8586;
-    border-radius: 3%;
+    background-color: #eb5f28be;
+    border-radius: 3.2%;
     margin: 0rem -2rem;
     padding: 0.5rem;
 }
 .pattern {
-    background-color: #59595934 ;
+    background-color: #eb5f2841 ;
     border-radius: 2%;
     padding: 2rem;
     line-height: -2rem;
 }
 #recomend {
     margin-top: 3%;
+}
+span:hover {
+    background-color: #4d3930;
+    border-radius: 4%;
+}
+#jp{ 
+    width: clamp(200px, 100%, 1100px);
+
 }
