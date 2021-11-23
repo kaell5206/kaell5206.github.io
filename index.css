@@ -93,5 +93,6 @@ li {
     margin-top: 3%;
 }
 span:hover {
-    background-color: #553427;
+    background-color: #4d3930;
+    border-radius: 4%;
 }
