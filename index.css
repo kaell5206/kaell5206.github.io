@@ -10,7 +10,7 @@ p {
     padding: 0.2rem;
     
 }
-.menu{
+.menu {
     background-color: #252422;
     color: #FFFCF2;
     position: fixed;
@@ -21,12 +21,11 @@ p {
     line-height: 3rem;
     list-style-type: none;
     font-weight: 600;
-    z-index: 1;
+
 }
-#itensMenu {
+.itensMenu  {
     left: 100rem;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 span {
@@ -44,10 +43,14 @@ span {
 hr {
     border: solid 1px;
 }
-
-#foto {
+.foto{
+    text-align: center;
+    margin: 1rem;
+}
+.foto img{
     width: clamp(250px, 100%, 500px);
     border-radius: 100%;
+    text-align: center;
 }
 h2 {
     font-size: 2rem;
@@ -58,25 +61,23 @@ h1 {
 li {
     font-size: 1.2rem;
 }
-.redeslink, a {
+.conteudo a {
     text-decoration: none;
     font-weight: 600;
     color: #EB5E28 ;
 }
-.redeslink, a:visited {
-    color: #3157ff;
+.conteudo a:visited {
+    color: #331e1e;
 }
-.redeslink, a:hover {
+.conteudo a:hover {
     color: #cc4192;
-}
-.menu, a, a:visited {
-    color: #837a65;
 }
 .redeslink {
     background-color: #eb5f2841 ;
     border-radius: 2%;
     padding: 1rem;
 }
+
 #skills, #redes, #recomend, #sobre {
     background-color: #eb5f28be;
     border-radius: 3.2%;
@@ -99,4 +100,8 @@ span:hover {
 #jp{ 
     width: clamp(200px, 100%, 1100px);
 
+}
+.itensMenu a {
+    color: #837a65;
+    text-decoration: none;
 }
