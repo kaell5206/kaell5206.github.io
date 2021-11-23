@@ -35,7 +35,6 @@ span {
 .conteudo {
     margin: auto;
     width: 60%;
-    border: 5px solid rgba(255, 247, 219, 0.274);
     color: #403D39;
     padding: 2rem;
     margin-top: 20%;
@@ -104,4 +103,22 @@ span:hover {
 .itensMenu a {
     color: #837a65;
     text-decoration: none;
+}
+.header {
+    text-align: center;
+}
+.header p {
+    float: right;
+    max-width: 15rem;
+    line-height: 3rem;
+    margin: 6rem 0rem 0rem 0rem;
+
+}
+.foto img {
+    padding: 5px;
+    background-color: #eb5f2881 ;
+    float: left;
+}
+#sobre {
+    clear: both;
 }
