@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+tr, th, td {
+    border: solid 1px;
+    text-align: center;
+   
+
+
+}
+main {
+    width: 70%;
+    margin: auto;
+}
+aside {
+    margin: auto;
+    float: right;
+    width: 14%;
+    
+}
+table {
+    text-align: center;
+    margin: auto;
+}
+th {
+    font-size: 1.2rem;
+}
+.patas img, .social img, .cores img {
+    width: clamp(200px, 100%, 600px);
+    margin: auto;
+    display: block;
+}
+
+/*header, nav, h4, h1, h2, h3, section, article, a, body, p, aside, main {
+    border: solid 1px;
+    
+}*/
+footer {
+    text-align: center;
+    margin: auto;
+    
+}
+footer h4 {
+    padding: 3rem;
+    width: 64.8%;
+    margin: auto;
+}
+
