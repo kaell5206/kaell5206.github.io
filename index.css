@@ -34,10 +34,10 @@ span {
 
 .conteudo {
     margin: auto;
-    width: 60%;
+    width: 80%;
     color: #403D39;
     padding: 2rem;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 hr {
     border: solid 1px;
@@ -106,9 +106,21 @@ span:hover {
 }
 .header {
     text-align: center;
+    border: solid 1px;
+    
+}
+.headerContent{
+    border: solid black 1px;
+    margin: auto;
+    width: 80%;
+    text-align:  center;
+    display: inline-table;
+}
+.foto{
+    border: solid black 1px;
+    width: 40%;
 }
 .header p {
-    float: right;
     max-width: 15rem;
     line-height: 3rem;
     margin: 6rem 0rem 0rem 0rem;
@@ -117,8 +129,4 @@ span:hover {
 .foto img {
     padding: 5px;
     background-color: #eb5f2881 ;
-    float: left;
-}
-#sobre {
-    clear: both;
 }
