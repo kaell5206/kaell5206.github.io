@@ -1,48 +1,50 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 tr, th, td {
-    border: solid 1px;
-    text-align: center;
-   
-
-
+  border: solid 1px;
+  text-align: center;
+}
+header, nav, a {
+  text-align: center;
+	border: solid 1px;
+	background-color: #08B2E3;
+	padding-top: 0%;
 }
 main {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 aside {
-    margin: auto;
-    float: right;
-    width: 14%;
-    
+  margin: auto;
+  float: right;
+  width: 14%;
 }
 table {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 th {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 .patas img, .social img, .cores img {
-    width: clamp(200px, 100%, 600px);
-    margin: auto;
-    display: block;
+  width: clamp(200px, 100%, 600px);
+  margin: auto;
+  display: block;
 }
-
 /*header, nav, h4, h1, h2, h3, section, article, a, body, p, aside, main {
     border: solid 1px;
-    
 }*/
 footer {
-    text-align: center;
-    margin: auto;
-    
+  text-align: center;
+  margin: auto; 
 }
 footer h4 {
-    padding: 3rem;
-    width: 64.8%;
-    margin: auto;
+  padding: 3rem;
+  width: 64.8%;
+  margin: auto;
+}
+body {
+  background-color: #EFE9F4;
 }
 
