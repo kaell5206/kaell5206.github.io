@@ -51,7 +51,7 @@ body {
   width: 80%;
   margin: auto;
   margin-bottom: 10%;
-  font-size: clamp(1.2em, 1.1vw, 2em)
+  font-size: clamp(1.3em, 1.6vw, 2em);
 }
 #foto {
   width: clamp(150px, 59%, 300px);
