@@ -1,0 +1,76 @@
+#default, #secondColor, #thirdColor, #fourthColor{
+    border: solid 1px black;
+    padding: 20px;
+    width: 5px;
+    display: inline-block;
+}
+section, header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#default {
+    background-color: black;
+    border: solid 1px black;
+}
+#secondColor {
+    background-color: blue;
+    border: solid 1px black;
+}
+#thirdColor {
+    background-color: red;
+    border: solid 1px black;
+}
+#fourthColor {
+    background-color: green;
+    border: solid 1px black;
+}
+.pixel {
+    width: 40px;
+    border: solid 1px black;
+    display: inline-block;
+    margin-top: -2px;
+    margin-bottom: -2px ;
+    background-color: white;
+    height: 40px;
+}
+#pixel-board {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#clear-board {
+    border-radius: 5%;
+    width: 10%;
+    padding: 7px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(84, 185, 189);
+}
+#clear-board:hover {
+    background-color: rgb(136, 221, 224);
+}
+
+#generateSec, #generate-board,#board-size {
+    display: inline-block;
+    margin: auto;
+}
+#generate-board {
+    border: solid 1px black;
+    border-radius: 5%;
+    width: 33%;
+    padding: 3px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(224, 224, 224);
+}
+#generate-board:hover {
+    background-color: rgb(195, 195, 195);
+}
+#board-size {
+    width: 40%;
+    margin: auto;
+}
