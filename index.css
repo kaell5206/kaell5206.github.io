@@ -54,7 +54,7 @@ body {
   font-size: clamp(1.3em, 1.6vw, 2em);
 }
 #foto {
-  width: clamp(150px, 59%, 300px);
+  width: clamp(150px, 50%, 300px);
   margin-top: 10%;
   border-radius: 100%;
   text-align: center;
