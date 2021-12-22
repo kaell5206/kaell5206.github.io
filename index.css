@@ -24,17 +24,20 @@ a:hover {
 body {
   color: #E8F7EE;
   font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 16px;
 }
 #menu {
   display: flex;
   align-content: center;
   justify-content: center;
+  padding-top: 100px;
+  margin-top: -100px;
   background-color: #1E1E24;
   width: 100%;
   text-align: center;
   position: fixed;
   top: 0;
-  font-size: clamp(0.8em, 1vw, 2em);
+  font-size: clamp(0.5em, 1.5vw, 3em);
   z-index: 999;
 }
 .foto {
@@ -45,7 +48,6 @@ body {
 #main {
   color: #002E4E;
   display: block;
-  position: relative;
   padding-top: 100px;
   margin-top: -100px;
   width: 80%;
@@ -72,7 +74,7 @@ body {
   width: 39%;
   justify-content: center;
   align-content: center;
-  font-size: clamp(0.8em, 1.5vw, 2em);
+  font-size: clamp(0.5em, 1.5vw, 3em);
 }
 .container-foto {
   display: flex;
@@ -109,7 +111,6 @@ footer {
   font-size: clamp(0.9em, 1vw, 2em);
   display: inline-block;
   width: 90%;
-  
 }
 #contato input {
   margin-top: 0%;
