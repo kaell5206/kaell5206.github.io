@@ -1,68 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaell Caldeira Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menu">
-        <h3 class="itensMenu"><span><a href="#top">Inicio</a></span><span><a href="#sobre">Sobre</a></span><span><a href="#skills"> Skills</a></span><span><a href="#redes">Redes Sociais</a></span><span><a href="#recomend">Recomendações</a></span><span><a href="./exercicio-dia-4.html">ExerD4</a></span></h3>
+  <header>
+    <nav id="menu">
+      <a href="#main">Home</a><a href="#sobre">Sobre</a><a href="#skills">Skills</a><a href="#projeto">Portfolio</a><a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main id="main"
+    <section class="first-section">
+      <div class="container-foto">
+      <img src="images/kaell-foto.jpg" alt="Imagem de kaell caldeira, homem pardo de cabelo escuro, olhando levemente pra cima e ao fundo pode ser ver plantas e uma parede." class="cont" id="foto">
+      <p class="cont" id="paraContainer">Olá me chamo <strong>Kaell Caldeira</strong> e este é meu portfolio virtual, abaixo vocẽ vai encontrar mais informações sobre mim e outras coisas interessantas.</p>
     </div>
-    <div class="conteudo">
-
-        <div class="header">
-    <h1>Kaell Alecsander Silva Caldeira</h1>
-    <h4>Portfolio de desenvolvimento web.</h4>
-    <hr>
-    <div class="headerContent">
-        <p class="pattern">Me chamo <strong>Kaell Caldeira e tenho 25 anos!</strong> Sou estudante da <strong>Trybe</strong> de <strong>desenvolvimento web</strong>.
-            Sou <strong>Brasileiro</strong>, nasci em <strong>João Pessoa a capital da Paraíba! </p>
-        <div class="foto">
-        <img src="./../images/232118939_251540196812035_6918737781753575107_n.jpg" alt="Foto de kaell, homem pardo com barba e bigode cabelos e olhos, castanhos escuro, vestindo uma camisa vermelha. No fundo tem um muro e algumas folhas de uma planta."> 
+    </section>
+    <section id="sobre">
+      <h2>Sobre :</h2>
+      <article id="sobre-art">
+        <p>Sou <strong>Paraíbano</strong> e nasci na cidade de <strong>João Pessoa</strong> a capital da Paraíba e continuo vivendo aqui. Entrei na <strong>Trybe</strong> na turma 19 na tribo B para ingressar nessa jornada para me tornar um Dev.</p>
+        <img src="images/joao-pessoa-paraiba.jpg" alt="Foto da orla de joão pessoa da praia de tambaú" class="foto">
+        <p id="p1">Antes de entrar no mundo dos Devs eu trabalhava Freelancer como artista digital e Design Gráfico. Sou uma pessoa com a doença ceratocone que me deixou cego dos 15 aos 21 anos, porem em 2018 fiz as cirurgias de <strong>transplante de córnea</strong>, apos os transplantes voltei a enxergar novamente. Desde então estou tentando me achar no mundo profissional e a Trybe é essa nova pagina na minha vida!</p>
+      </article>
+    </section>
+    <section id="skills">
+      <h2>Skills :</h3>
+        <section id="listas" >
+          <div id="first-list">
+          <h3>Aprendidas :</h3>
+          <ul id="lista-skills1"></ul>
         </div>
-    </div>
-</div>
-    <h2 id="sobre">Sobre mim:</h2>
-    <img src="./images/joao-pessoa-paraiba.jpg" alt="Foto da praia de joão pessoa, hotel tambau e a feirinha." id="jp"> <p class="pattern"></strong> Antes de entrar no mundo dos Devs eu trabalhava Freelancer como artista digital, ilustração digital e Designer Gráfico.
-Sou uma pessoa portadora de <strong>ceratocone</strong> que me deixou cego dos 13 aos 21 anos, <strong>porem em 2018 fiz a cirurgia de transplante de córnea!</strong> e voltei a enxergar. Desde então estou tentando me achar no mundo profissional e a <strong>Trybe é essa nova pagina na minha vida!</strong></p><br>
-
-<h2 id="skills">Skills:</h2><br>
-    <ul class="pattern">
-        <li><strong>Photoshop</strong></li><br>
-        <li>Ilustrator</li><br>
-        <li>Iniciando Git & GitHub</li><br>
-        <li>Iniciando HTML & CSS</li><br>
-        <li>Iniciando JavaScript</li><br>
-    </ul>
-<h2 id="redes">Redes Sociais:</h2><br>
-    <div class="redeslink">
-        <ul>
-        <li><a href="https://www.linkedin.com/in/kaell-caldeira-930382225/" target="_blank">LinkedIn</a></li><br>
-        <li><a href="https://github.com/kaell5206" target="_blank">GitHub</a></li><br>
-        <li><a href="https://www.instagram.com/kaellalec/" target="_blank">Instagram</a></li><br>
-    </ul>
-    </div>
-    <h2 id="recomend">Recomendações</h2><br>
-    <ul class="pattern">
-        <li><a href="https://www.betrybe.com/" target="_blank">Trybe!</a></li>
-        <p>Melhor escola de programação!</p>
-        <li><a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a></li>
-        <p>Melhor site de noticias e conteudo de cultura POP!</p>
-        <li><a href="https://9gag.com/" target="_blank">9gag</a></li>
-        <p>Bom site para perder tempo vendo memes!</p>
-        <li><a href="https://pt.duolingo.com/" target="_blank">Duolingo</a></li>
-        <p>Otimo site free para aprender idiomas.</p>
-
-    </ul>
-    <h2>Galeria:</h2>
-    <p>WIP</p>
-</div>
+        <div id="second-list">
+          <h3>Estudando :</h3>
+          <ul id="lista-skills2"></ul>
+        </div>
+      </section>
+      <p>Como me disseram, os estudos na area de programação <strong>nunca acabam</strong>, estamos o tempo todo estudando algo novo ou aperfeiçoando o que já sabemos. A lista é uma referência para mostrar os estudos atuais. Irei atualizar com o que irei aprender.</p>
+    </section>
+    <section id="projeto">
+      <h2>Projetos :</h2>
+      <p>Aqui você vai encontrar <strong>todos os projetos</strong> realizados durante meu periodo estudando na trybe :</p>
+      <h3><a href="lessons-learned/index.html" target="_blank">Project Lessons Learned</a></h3>
+      <p>Nosso primeiro projeto na trybe, exercitando HTML semântico.</p>
+      <h3><a href="pixel-art/index.html" target="_blank">Project Pixel Art</a></h3>
+      <p>Nosso projeto sobre interação com eventos.</p>
+      <h3><a href="todo-list/index.html" target="_blank">Project To do list</a></h3>
+      <p>Projeto realizado para praticar interação com eventos e o uso do localStorage.</p>
+    </section>
+    <section id="contato">
+      <h2>Contato :</h2>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+          <!-- Make sure you don't change the form action-->
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <!-- Replace with accesKey sent to your email -->
+      <div id="line">
+      <input type="hidden" name="accessKey" value="277872d0-c46e-440d-a86b-c81ba81c3ba3"> <!-- Required -->
+      <h4>Seu nome :</h4>
+      <input type="text" name="name" placeholder="Seu nome aqui"> <!-- Optional -->
+      <h4>Assunto :</h4>
+      <input type="text" name="subject" placeholder="Assunto.">
+    </div> <!-- Optional -->
+      <h4>Seu e-mail :</h4>
+      <input type="text" name="email" placeholder="Seu e-mail aqui."> <!-- Optional -->
+      <h4>Sua Mensagem :</h4>
+      <textarea name="message" placeholder="Sua mensagem aqui."></textarea>
+      <input type="hidden" name="redirectTo" value="http://www.kaell5206.gitpages.io/#contato"> <!-- Optional --> 
+      <div>
+      <input type="submit" value="Submit" id="submit"/>
+      </div>
+  </form>
+    </section>
+  </main>
+  <footer>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat et dolorem?</p>
+  </footer>
+  <script src="index.js"></script>
 </body>
 </html>
