@@ -2,7 +2,7 @@ function criarLista() {
   const firstLIst = document.querySelector('#lista-skills1')
   const secondLIst = document.querySelector('#lista-skills2')
   let skills = ['Git & GitHub', 'HTML', 'CSS', 'JavaScript', 'DOM']
-  let skills2 = ['ReactJS', 'Python', 'NodeJS', 'Estrutura de dados', 'CSS avançado']
+  let skills2 = ['ReactJS', 'Python', 'NodeJS', 'Data structure', 'CSS avançado']
   for (let i = 0; i < skills.length; i += 1) {
     const elementLi = document.createElement('li');
     elementLi.innerHTML = elementLi.innerText = skills[i];
