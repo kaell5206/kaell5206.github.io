@@ -130,6 +130,15 @@ textarea {
 #submit {
   display: block;
 }
+.redes__logos {
+  width: 7%;
+  color: #1E1E24;
+  text-align: left;
+  display: inline-block;
+  top: 0;
+  margin: auto;
+}
+
 @media screen and (max-height: 1025px) and (max-width: 500px) {
   #foto {
     width: clamp(100px, 50%, 200px);
