@@ -6,11 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 .divisor {
-  padding-top: 2.5em;
+  padding-top: 2.6em;
 }
 .first-section {
   width: 100%;
-  background: url(images/background.jpg);
+  background: url(images/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -40,6 +40,7 @@ a:hover {
 body {
   color: #E8F7EE;
   font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 16px;
 }
 header {
   position: sticky;
@@ -73,7 +74,7 @@ header {
   font-size: clamp(1.3em, 1.6vw, 2em);
 }
 #foto {
-  width: clamp(150px, 50%, 300px);
+  width: clamp(150px, 50%, 420px);
   margin-top: 10%;
   border-radius: 100%;
   text-align: center;
@@ -81,15 +82,20 @@ header {
   margin: auto;
   justify-content: center;
   align-items: center;
+  animation-name: transitionX;
+  animation-duration: 1.5s;
 }
 #paraContainer {
-  background-color: #ffd7d088;
+  background-color: #e3ecced8;
   padding: 1em;
   border-radius: 0.5em;
   color: #001e33; 
   margin: auto;
   width: 39%;
   font-size: clamp(1.3em, 1.2vw, 3em);
+  padding-left: 0.5;
+  animation-name: transition;
+  animation-duration: 1.5s;
 }
 .container-foto {
   padding-top: 1em;
@@ -97,7 +103,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin-bottom: 2%;
 }
@@ -117,22 +123,46 @@ p, img, h2, h3 {
   text-align: left;
   list-style-position: inside;
   margin-bottom: 3%;
-  font-size: clamp(0.9em, 1.5vw, 2em)
+  font-size: clamp(0.9em, 1.5vw, 2em);
+  
 }
-li:nth-child(odd) {
-  background-color: rgba(152, 209, 255, 0.678);
+main li:nth-child(odd) {
+  background-color: #c2cab1c7;
   border-radius: 0.1em;
 }
 footer {
-  background-color: #29251c;
+  background-color: #1E1E24;
   padding: 0.6rem;
-  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
 }
-#contato #line h4 {
+footer .ref {
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 4%;
+}
+footer p {
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+footer li {
+  list-style: none;
+  text-align: left;
+}
+#listFooter {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+#contato h4 {
   margin-bottom: 0%;
-  font-size: clamp(0.9em, 1vw, 2em);
-  display: inline-block;
-  width: 90%;
+  font-size: clamp(1.5em, 1.5vw, 3em);
+  display: block;
 }
 #contato input {
   margin-top: 0%;
@@ -141,6 +171,7 @@ footer {
   background-color: #1E1E24;
   color: #E8F7EE;
   border: none;
+  font-size: clamp(1.3em, 1.5vw, 3em);
   
 }
 textarea {  
@@ -149,21 +180,17 @@ textarea {
   background-color: #1E1E24;
   color: #E8F7EE;
   border: none;
+  padding: 0.3rem;
+  font-size: clamp(1.3em, 1.5vw, 3em);
 }
 #submit {
   display: block;
   width: 9em;
 }
-.redes__logos {
-  width: 7%;
-  color: #1E1E24;
-  text-align: left;
-  display: inline-block;
-  margin: auto;
-}
 #contato {
   padding-bottom: 5%;
-  background-color: rgb(57, 37, 61);
+  background-color: rgb(56, 44, 58);
+  color: #dbf0e2;;
 }
  .contato-container {
   width: 80%;
@@ -198,23 +225,21 @@ textarea {
     align-content: center;
   }
   #paraContainer {
-    background-color: #ffd7d088;
     padding: 0.4em;
     border-radius: 0.5em;
-    color: #002E4E; 
-    display: inline-block;
+    color: #002E4E;
     margin: auto;
-    width: 65%;
-    justify-content: center;
-    align-content: center;
-    font-size: clamp(0.6em, 1.3vw, 3em);
+    width: 60%;
+    font-size: clamp(1em, 1.3vw, 3em);
+    text-align: left;
+    margin-left: 0.3em;
   }
   #main {
     margin: auto;
     width: 85%;
   }
   .contato-container {
-    width: 85%;
+    width: 90%;
     margin: auto;
   }
   #contato input {
@@ -261,24 +286,17 @@ textarea {
   }
   #paraContainer {
     background-color: #ffd7d088;
-    font-size: clamp(3em, 1.7vw, 5em);
-  }
-  #contato input {
-    margin-top: 0%;
-    width: 40%;
-    padding: 1.5rem;
-    display: inline-block;
-    background-color: #1E1E24;
-    color: #E8F7EE;
+    font-size: clamp(3em, 2.3vw, 6em);
   }
   #contato input::-webkit-input-placeholder, textarea, textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 0.3rem;
     background-color: #1E1E24;
     color: #E8F7EE;
   }
   #submit {
     display: block;
-    background-color: #1E1E24;
+    background-color: #d9d9ec;
     color: #E8F7EE;
     font-size: 2rem;
   }
@@ -307,9 +325,13 @@ textarea {
     background-color: #1E1E24;
     color: #E8F7EE;
     border: none;
-    height: 5em;
+    height: 1.3em;
     width: 30%;
-    
+    font-size: clamp(1.2em, 1.9vw, 4em);
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    border-radius: 3%;
   }
   textarea {  
     width: 60%;
@@ -338,3 +360,16 @@ textarea {
   to {background-color: #adb49f}
 }
 
+@keyframes transition {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  from {transform: translateY(-100px);};
+  to {transform: translateY(0%);};
+}
+
+@keyframes transitionX {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  from {transform: translateX(-100px);};
+  to {transform: translateX(0%);};
+}
