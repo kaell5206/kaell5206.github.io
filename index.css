@@ -92,7 +92,7 @@ header {
   color: #001e33; 
   margin: auto;
   width: 39%;
-  font-size: clamp(1.3em, 1.2vw, 3em);
+  font-size: clamp(1.5em, 1.5vw, 3em);
   padding-left: 0.5;
   animation-name: transition;
   animation-duration: 1.5s;
@@ -127,7 +127,7 @@ p, img, h2, h3 {
   
 }
 main li:nth-child(odd) {
-  background-color: #c2cab1c7;
+  background-color: #c2cab194;
   border-radius: 0.1em;
 }
 footer {
